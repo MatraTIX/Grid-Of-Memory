@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#gameContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    width: 300px;
+}
+
+.square {
+    background-color: lightgray;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+
+h1, h2, button {
+    text-align: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    width: 300px;
+}
+
+#scoreContainer {
+    align-self: flex-end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#score {
+    font-weight: bold;
+}
+
+.flash {
+    background-color: blue;
+}
